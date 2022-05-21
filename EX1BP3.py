@@ -1,0 +1,8 @@
+item1_quantity = int(input("Enter quantity of first item: "))
+item1_price = int(input("Enter price of first item: "))
+item2_quantity = int(input("Enter quantity of second item: "))
+item2_price = int(input("Enter price of second item: "))
+item3_quantity = int(input("Enter quantity third item: "))
+item3_price = int(input("Enter price of third item: "))
+total = (item1_quantity * item1_quantity) + (item2_quantity * item2_price) + (item3_quantity * item3_price)
+print("Total amount to be paid by the customer: ", total)
